@@ -1,3 +1,35 @@
+
+    <header>
+        <h1>AUTONO</h1>
+        <ul>
+            <li><a href="">Tecnologia</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Carreiras</a></li>
+            <li><a href=""> <span class="bot1"> Assinar </span></a></li>
+        </ul>
+    </header>
+    <main>
+        <h1><span class="texto__grande">O FUTURO DA </span><br>  MOBILIDADE CHEGOU</h1>
+        <h2>Prove uma direção autônoma mais segura com Autono.</h2>
+        
+        <div>
+            <img class="foto__carro" src="fundo.png" alt="">
+            <video autoplay="true" loop>
+                <source src="nuvem8.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+
+
+    <aside>
+        
+    </aside>
+</body>
+
+
+------------------------------------------------------------------------------------------
+class
+
 * {
     margin: 0;
     padding: 0;
@@ -73,8 +105,8 @@ main h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     padding: 100px;
-    color: aliceblue;
-    /* background-color: rgba(251, 250, 250, 0.3); */
+    color: rgb(2, 2, 85);
+    /* background-color: rgb(0, 0, 0, 0.2); */
 }
 
 main h2 {
@@ -85,7 +117,7 @@ main h2 {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
     font-weight: 100;
-    color:aliceblue;
+    color: rgb(2, 2, 85);
 }
 
 .foto__carro {
@@ -101,15 +133,4 @@ video{
     width: 100%;
     z-index: -1;
     opacity: 0.9; 
-}
-.main__ul{
-    width: 900px;
-    height: 310px;
-    background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    top: 170px;
-    left: 305px;
-    border-radius: 10px;
-    list-style: none;
-    z-index: -1;
 }
